@@ -1,3 +1,4 @@
+
 # Termux SMS ChatGPT Assistant
 
 Termux SMS ChatGPT Assistant is a Python script that integrates with Termux on Android to automate the processing of SMS messages using OpenAI's GPT-3.5-turbo. The script listens for new SMS messages, analyzes their content, and generates responses using the OpenAI language model if the message ends with a question mark or any other symbols configured in the 'bodyIncludeText = "?"'.
@@ -8,9 +9,6 @@ Termux SMS ChatGPT Assistant is a Python script that integrates with Termux on A
 - Analyzes SMS content and generates responses using OpenAI GPT-3.5-turbo.
 - Marks processed SMS as read to avoid repeated processing.
 - Handles cases where 'sender' information is not available by using the 'number' field.
-
-##Screenshot
-![Screenshot](screenshot.png)
 
 ## Prerequisites
 
@@ -63,4 +61,5 @@ This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE
 
 Feel free to contribute to the project or submit issues if you encounter any problems.
 
-
+## Screenshot
+![Screenshot](https://github.com/rzgarespo/android-termux-sms-chatgpt/raw/main/Screenshot.png)
